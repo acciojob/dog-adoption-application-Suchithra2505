@@ -1,2 +1,54 @@
 
 /* Your CSS Code here. */
+@import url('https://fonts.googleapis.com/css?family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+html, body {
+	background-color: lightseagreen;
+	font-family: 'Varela Round', sans-serif;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	align-items: center;
+}
+#survey-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	opacity: 0.9;
+	color: blueviolet;
+	font-size: 1.2em;
+	margin: 0px 50px;
+	border: 2px solid red;
+	border-radius: 5px;
+	background-color: hotpink;
+	box-shadow: 5px 5px 5px #120901;
+}
+#button {
+	display: flex;
+	justify-content: center;
+	
+}
+
+#submit {
+	color: #120901;
+	background:skyblue;
+	border: 2.5px solid #120901;
+	border-radius: 15px;
+	cursor: pointer;
+	margin: 10px;
+	font-size: 2.02em;
+	font-weight: bold;
+	padding: 12px;
+	
+}
+
+#submit:hover {
+	background: darkolivegreen;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
